@@ -1,0 +1,32 @@
+.featurette {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .featurette-heading {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    margin-bottom: 50px; 
+    font-weight: normal;
+    line-height: 1; /* lh-1 */
+    font-weight: bold;
+  }
+
+  .lead.problem {
+    line-height: clamp(1.0, 2vw, 1.6);
+    font-size: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .featurette {
+      flex-direction: column-reverse;
+    }
+    .lead.problem {
+      line-height: 1;
+      font-size: 30px;
+    }
+    .featurette-heading {
+      margin-bottom: 2vw; 
+      line-height: 0.5; /* lh-1 */
+    }
+  }
