@@ -1,6 +1,6 @@
 import React from "react";
 const Contact: React.FC = () => {
-  const email = "Kevinkadar1905@gmail.com";
+    const email = "infinitygame@proton.me";
 
   return (
     <div className="container text-center mt-5 mb-10">
