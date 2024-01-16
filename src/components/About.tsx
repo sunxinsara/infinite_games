@@ -45,7 +45,7 @@ const About: React.FC = () => {
       <hr className="featurette-divider" />
       <Fade delay={1e3} cascade damping={1e-1}>
         <div className="row featurette">
-          <div className="col-md-7 order-md-2">
+          <div className="col-md-5 order-md-2">
             <h2 className="featurette-heading fw-normal lh-1">
               The Problem{" "}
               {/* <span className="text-body-secondary">Versitile</span> */}
@@ -64,7 +64,7 @@ const About: React.FC = () => {
             are concerned
             </p>
           </div>
-          <div className="col-md-5 order-md-1">
+          <div className="col-md-7 order-md-1">
             <img src={imgProblem} alt="Image" className="img-fluid" />
           </div>
         </div>
@@ -72,7 +72,7 @@ const About: React.FC = () => {
       <hr className="featurette-divider" />
       <Fade delay={1e3} cascade damping={1e-1}>
         <div className="row featurette">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <h2 className="featurette-heading fw-normal lh-1">
               Our Solution{" "}
             </h2>
@@ -85,17 +85,17 @@ const About: React.FC = () => {
             <p className="lead problem">
               with Positive
             </p>
-            <br></br>
+           
             <p className="lead problem">
               Learn with fun
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-7">
             <img src={imgSolution1} alt="Image" className="img-fluid" />
           </div>
-          <div className="col-md-4">
+                  {/* <div className="col-md-4">
             <img src={imgSolution2} alt="Image" className="img-fluid" />
-          </div>
+          </div> */}
         </div>
       </Fade>
       <hr className="featurette-divider" />
