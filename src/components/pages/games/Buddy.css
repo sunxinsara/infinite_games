@@ -135,6 +135,10 @@ body{
   
 }
 
+#FancyboxId {
+  max-width: 600px;
+  max-height: 400px;
+}
 .direct-bundles--item{
   width: 33.333333%;
   padding: 10px 0;

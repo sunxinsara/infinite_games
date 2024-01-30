@@ -7,17 +7,20 @@ import Home from "./components/pages/home/Home.tsx";
 import Games from "./components/pages/games/Games.tsx";
 import Buddy from "./components/pages/games/Buddy.tsx";
 import Books from "./components/pages/books/Books.tsx";
-
+import PayButton from "./components/PayButton.tsx";
+import PayTest from "./components/PayTest.tsx";
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <Header2 />
+    <Router basename = "/infinite_games/">
+      
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/games" element={<Games />} />
-        <Route path="/books" element={<Books />} />
-        <Route path="/buddy" element={<Buddy />} />
+        <Route path="/" element={<div><Header2/> <Home /></div>}  />
+        <Route path="/games" element={<div><Header2/> <Games /></div>} />
+        <Route path="/books" element={<div><Header2/> <Books /></div>} />
+        <Route path="/buddy" element={<div><Header2/> <Buddy /></div>} />
+        <Route path="/pay" element={<PayButton />} />
+        <Route path="/paytest" element={<PayTest />} />
       </Routes>
     </Router>
   );

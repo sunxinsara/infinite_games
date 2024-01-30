@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 85 100" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-2{fill:#757976;}</style>
+    <style bx:fonts="ADLaM Display">@import url(https://fonts.googleapis.com/css2?family=ADLaM+Display%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <text style="fill: rgb(255, 255, 255); font-family: 'ADLaM Display'; font-size: 4.3px; white-space: pre;" transform="matrix(4.09922981262207, 0, 0, 4.1300950050354, -84.86913299560547, -137.82391357421878)" x="24.238" y="53.269">Games</text>
+  <text style="fill: rgb(117, 121, 118); font-family: 'ADLaM Display'; font-size: 4.3px; white-space: pre;" transform="matrix(4.09922981262207, 0, 0, 4.1300950050354, -84.72278594970703, -188.38928222656253)" x="24.238" y="53.269">Games</text>
+</svg>

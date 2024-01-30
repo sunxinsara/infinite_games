@@ -1,6 +1,10 @@
 import "./Buddy.css"
+import React, { useState } from 'react';
+import PayButton from "../../PayButton";
 
 const Buddy:React.FC = () => {
+    const [openModal, setOpenModal] = useState(false);
+
     return (
     <div id="content" className="content content--game">
         <div className="game-content-container">
@@ -24,7 +28,7 @@ const Buddy:React.FC = () => {
                             <h5>+ Steam Key</h5>
                         </div>
                         <div className="widget-container shadow-btn">
-                            <a className="widget" data-fancybox="" data-type="iframe" href="https://www.humblebundle.com/widget/v2/product/pilgrims_widget/CNOpbPVgiS?theme=light">
+                            <a className="widget" data-fancybox data-type="iframe"  data-id="FancyboxId" href="/infinite_games/pay">
                                 <span className="buy-btn caps shadow-btn highlight">download</span>
                                 <span className="price highlight">$7</span>
                             </a>

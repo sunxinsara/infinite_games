@@ -2,7 +2,6 @@ import React from "react";
 import './About.css'
 import img1 from "../Media/Images/gaming_boy.jpg";
 import imgProblem from "../Media/Images/games_children.jpg";
-import imgSolution2 from "../Media/Images/games_yang1.jpg";
 import imgSolution1 from "../Media/Images/games_young_2.jpg";
 import imgCommunity from "../Media/Images/community.jpg";
 import { Fade } from "react-awesome-reveal";

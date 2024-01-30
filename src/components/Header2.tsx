@@ -1,5 +1,5 @@
 import './Header2.css'; 
-import logo from '../Media/favicon_io/LOGO32X32.png'
+import { Link } from 'react-router-dom';
 
 const Header2: React.FC  = () => {
   return (
@@ -22,9 +22,9 @@ const Header2: React.FC  = () => {
 
             <div className="mainmenu">
                 <ul>
-                    <li className="current"><a href="/" className="menu01"><span>Home </span></a></li>
-                    <li><a href="/books" className="menu02"><span>Books </span></a></li>
-                    <li><a href="/games" className="menu03"><span>Games</span></a></li>
+                    <li className="current"><Link to="/" className="menu01"><span>Home</span></Link></li>
+                    <li><Link to="/books" className="menu02"><span>Books</span></Link></li>
+                    <li><Link to="/games" className="menu03"><span>Games</span></Link></li>
                 </ul>
             </div> 
         </div> 
